@@ -5,6 +5,7 @@ use this tool to graphically vizualize a python software project / etc.
 ## requirements
 
 the vizualization relies on the installation of graphviz and its gts library
+
 run
 ```
 sudo apt install libgts-dev
@@ -12,7 +13,9 @@ sudo pkg-config --libs gts
 sudo pkg-config --cflags gts
 ```
 download `graphviz-2.40.1.tar.gz` from [here](https://www.graphviz.org/download/)
-extract
+
+extract it
+
 run
 ```
 sudo ./configure --with-gts --prefix install/path
@@ -33,12 +36,13 @@ os.system("okular graph.ps")
 ```
 
 generate the Graph with initialization of class `Graph`
-    takes `path` to repository as input (should not end with `/`)
-    boolean `showFunctions`: show only file structure or files and functions
+
+* takes `path` to repository as input (should not end with `/`)
+* boolean `showFunctions`: show only file structure or files and functions
 
 save graph with `saveGraph` function
-    takes name as voluntary argument
-    always saves as `.ps` and raw graph as `.out` files
+* takes name as voluntary argument
+* always saves as `.ps` and raw graph as `.out` files
 
 
 
