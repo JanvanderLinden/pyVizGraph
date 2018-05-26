@@ -41,8 +41,9 @@ generate the Graph with initialization of class `Graph`
 * boolean `showFunctions`: show only file structure or files and functions
 
 save graph with `saveGraph` function
-* takes name as voluntary argument
-* always saves as `.ps` and raw graph as `.out` files
+* `outName = filename.out`
+* `psName = filename.ps`
+* always saves graph as `.ps` and code as `.out` file
 
 
 
